@@ -1,8 +1,6 @@
-delocated.site  v1 
-/
-Greetings fam thanks for checking out this site build for delocate.d by lidas
+/ delocated.site  v1 /
 
-/
+/ Greetings fam thanks for checking out this site build for delocate.d by lidas /
 
 /// Need to build: ///
 
