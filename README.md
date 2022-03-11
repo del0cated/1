@@ -2,7 +2,7 @@
 
 / Greetings fam thanks for checking out this site build for delocate.d by lidas /
 
-/// Need to build: ///
+/Need to build: /
 
 *display image carousel/slideshow  in the "home/news" section
   - display product images and advertise recent media (sample pack -> episode -> recent photo -> repeat)
@@ -11,7 +11,7 @@
 
 /
 
-/// Working on it: ///
+/ Working on it: /
 
 *:hamburger: menu for mobile version, corresponding pop up menu for navigation
 
@@ -23,7 +23,7 @@
 
 /
 
-/// Known issues: ///
+/ Known issues: /
 
 *screen width not adjusted for mobile
 
