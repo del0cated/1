@@ -6,6 +6,9 @@
 
 /
 
+*splash page that doesn't display header
+  - requires click of "escape" button to land on home page
+
 *display image carousel/slideshow  in the "home/news" section
   - display product images and advertise recent media (sample pack -> episode -> recent photo -> repeat)
 
@@ -17,7 +20,7 @@
 
 *:hamburger: menu for mobile version, corresponding pop up menu for navigation
 
-*media queries to fix viewport width issue
+*media queries 
 
 *artist information and links
 
@@ -32,6 +35,8 @@
 *too much padding between certain sections, need to figure out how to reduce 
 
 *nested boxes in containers exceeding parent's dimensions
+
+* shop video needs to be hidden on mobile
 
 
 
