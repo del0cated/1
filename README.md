@@ -1,4 +1,4 @@
-delocated.site  v1
+delocated.site  v1 /
 Greetings fam thanks for checking out this site build for delocate.d by lidas
 
 /
