@@ -13,7 +13,7 @@ Greetings fam thanks for checking out this site build for delocate.d by lidas
 
 *linking forms for email list and contact form
 
-
+/
 
 /// Working on it: ///
 
@@ -24,6 +24,8 @@ Greetings fam thanks for checking out this site build for delocate.d by lidas
 *artist information and links
 
 *linking social media links in footer
+
+/
 
 /// Known issues: ///
 
