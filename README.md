@@ -34,7 +34,7 @@
 
 *too much padding between certain sections, need to figure out how to reduce 
 
-*nested boxes in containers exceeding parent's dimensions
+*nested boxes in containers exceeding parent's dimensions on "contact" section
 
 * shop video needs to be hidden on mobile
 
