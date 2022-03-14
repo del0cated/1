@@ -44,6 +44,13 @@ html {
 
 section {
     padding: 75rem 9%;
+    background-position-x: center;
+    background-size:cover;
+    background-image:url("../img/Sea_Blue.png");
+    height: 100vh;
+    width:100%;
+
+    
 }
 
 .btn {
@@ -53,6 +60,7 @@ section {
     border: 0.1rem solid var(--white);
     border-radius: 5rem 2rem 5rem 2rem;
     padding: 1rem 2rem; 
+    align-items: right;
     
     
 }
@@ -76,18 +84,21 @@ section {
 .splash {
     padding-top: 150px;
     height: 100vh;
-    background-image:url("../img/Sea_Blue.png");
-    background-size: cover;
-    background-attachment: fixed;
     font-size: medium;
 
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: right;
     flex-flow: column;
     text-align: center;
-    
 
+}
+
+.splash .btn {
+   width: fit-content;
+   align-items: center;
+   margin-top: 5px;
+   margin-left: 900px;
 }
 
 /* end Splash */
@@ -143,15 +154,8 @@ section {
 /* home */
 
 .home {
-    
     padding-top: 25%;
-    height: 100vh;
-    background: url("../img/Sea_Blue.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
-    
+   
     font-size: small;
     font-weight: 400;
     color: rgb(196, 197, 202);
@@ -175,8 +179,8 @@ section {
    .home .img {
     filter:opacity(75%);
     border: 0.1rem solid var(--light);
-     border-radius: 5rem;
-     padding: 1rem 2rem; 
+    border-radius: 5rem;
+    padding: 1rem 2rem; 
      
      
 }
@@ -299,9 +303,7 @@ section {
     padding-top: 0%;
     height: 100vh;
     width:100%;
-    background: url("../img/Sea_Blue.png");
-    background-attachment: fixed;
-    background-size: cover;
+   
 }
 
 .artists .box {
@@ -380,7 +382,9 @@ section {
 
 /* episodes */
 
-
+.episodes {
+    padding: 15%;
+}
 .episodes .box-container .box .image {
    
     height: 40rem;
@@ -414,7 +418,6 @@ iframe {
 .episodes .box-container .box p {
     font-size: 1.7 rem;
     line-height: 1.5;
-    
     color: var(--light-color);
     text-transform: none;
 }
@@ -422,9 +425,6 @@ iframe {
 .episodes {
    
     height: 100vh;
-    background: url("../img/Sea_Blue.png");
-    background-attachment: fixed;
-    background-size: cover;
     font-size: small;
     font-weight: 400;
     color: rgb(196, 197, 202);
@@ -472,9 +472,7 @@ z-index: 20;
 .shop {
     height: 100%;
     width:100%;
-    background: url("../img/Sea_Blue.png");
-    background-attachment: fixed;
-    background-size: cover;
+    padding-top: 25%;
     align-items: center; 
       
 }
@@ -569,10 +567,6 @@ z-index: 20;
 
 .contact { 
     padding-bottom: 1%;
-    
-    background: url("../img/Sea_Blue.png");
-    background-attachment: fixed;
-    background-size: cover;
     font-size: 1.7rem;
     font-weight: 400;
     color: rgb(196, 197, 202);
@@ -754,12 +748,15 @@ position: absolute;
     font-size: 1.3rem;
     color: var(--white);
     text-align: center;
-   
-    background: url("../img/Sea_Blue.png");
-    background-attachment: fixed;
-    background-size: cover;
+    background-position-x: center;
+    background-size:cover;
+    background-image:url("../img/Sea_Blue.png");
+ 
+  
+    
+  
     font-weight: 400;
-    padding-top: 10%;
+    padding-top: 30%;
   
 } 
 
@@ -787,24 +784,60 @@ position: absolute;
 }
 
 /*media-queries*/
+@media (max-width: 1200px) {
+    .splash .btn {
+        width: fit-content;
+        align-items: center;
+        margin-left: 300px;
+    }
 
+    .section {
+        width: 100vw;
+    }
+}
+
+
+
+ 
+
+  
+
+    @media (max-width: 400px) {
+        .splash .btn {
+            width: fit-content;
+            align-items: center;
+            margin-left: 100px;
+        }
+
+
+/* remove 'background-attachment' and 
+'position' statements from each section to 
+get mobile background to appear correctly */
+
+
+/*
 @media (max-width: 768px) {
         .header .menu { 
             display: block;
     }
+   
+    /*
 .header .navbar {
     position: fixed;
     top: 6.4rem;
     left: 0;
     right: 0;
     /* height: 50vh; */ 
+
+    /*
     display: flex;
     flex-flow: column;
     text-align: center;
     background-image: url("../img/Dark_blob.png");
     background-repeat: no-repeat;
     background-position-x: center;
-}
+} 
+
 
 .header .navbar a {
     margin: 0;
